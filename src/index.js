@@ -34,7 +34,7 @@ class Sider extends React.Component {
       <div>
         <div className="nav"></div>
         <div class="allwrap">
-          <div class="rightwrap">
+          <div class="leftwrap">
             <Menu
               onClick={this.handleClick}
               style={{ width: 256 }}
@@ -48,7 +48,7 @@ class Sider extends React.Component {
               <Menu.Item key="Option4">Option 4</Menu.Item>
             </Menu>
           </div>
-          <div class="leftwrap">
+          <div class="rightwrap">
             <div class="itemtitle1 Option1">我是title-Option1---{msg}</div>
             <div class="itemwrap">{this.renderItem(26)}</div>
             <div class="itemtitle1 Option2">我是title2-Option2</div>
